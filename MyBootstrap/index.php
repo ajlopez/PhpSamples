@@ -1,0 +1,1 @@
+<?php    include('includes/header.php');?><h1>Home</h1><p>PHP sample using Twitter Bootstrap</p><?php    include('includes/footer.php');?>

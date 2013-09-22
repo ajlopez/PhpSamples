@@ -1,0 +1,1 @@
+<?php    include('includes/header.php');?><h1>Customers</h1><p>To be done</p><?php    include('includes/footer.php');?>
