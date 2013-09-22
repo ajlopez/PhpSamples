@@ -1,1 +1,1 @@
-<?php    include('includes/header.php');?><h1>Customers</h1><p>To be done</p><?php    include('includes/footer.php');?>
+<?php    $page = new stdClass();    $page->title = 'Customers';    include('includes/header.php');?><h1>Customers</h1><p>To be done</p><?php    include('includes/footer.php');?>

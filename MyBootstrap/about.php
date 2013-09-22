@@ -1,1 +1,1 @@
-<?php    include('includes/header.php');?><h1>About</h1><p>PHP sample from <a href='https://github.com/ajlopez/PhpSamples/MyBootstrap'>https://github.com/ajlopez/PhpSamples/MyBootstrap</a></p><?php    include('includes/footer.php');?>
+<?php    $page = new stdClass();    $page->title = 'About';    include('includes/header.php');?><h1>About</h1><p>PHP sample from <a href='https://github.com/ajlopez/PhpSamples/tree/master/MyBootstrap'>https://github.com/ajlopez/PhpSamples/tree/master/MyBootstrap</a></p><?php    include('includes/footer.php');?>
