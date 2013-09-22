@@ -25,6 +25,17 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+            <li class='dropdown'>
+                <a role='button' data-toggle='dropdown' href='#'>Socket.io <span class="caret"></span></a>
+                <ul class='dropdown-menu'>
+                    <li role='presentation'>
+                        <a role='menuitem' tabindex='-1' href='canvas.php'>Canvas</a>
+                    </li>
+                    <li role='presentation'>
+                        <a role='menuitem' tabindex='-1' href='chat.php'>Chat</a>
+                    </li>
+                </ul>
+            </li>
             <li><a href="about.php">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
