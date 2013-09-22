@@ -1,0 +1,1 @@
+<?php    $page = new stdClass();    $page->title = 'Home';    include('includes/header.php');?><h1>Home</h1><p>PHP and Node.js samples</p><?php    include('includes/footer.php');?>

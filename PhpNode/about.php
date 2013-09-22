@@ -1,0 +1,1 @@
+<?php    include('includes/header.php');?><h1>About</h1><p>PHP sample from <a href='https://github.com/ajlopez/PhpSamples/PhpNode'>https://github.com/ajlopez/PhpSamples/PhpNode</a></p><?php    include('includes/footer.php');?>
