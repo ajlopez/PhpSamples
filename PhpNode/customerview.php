@@ -12,7 +12,6 @@
     $page->title = 'Customer';
     include('includes/header.php');
 ?>
-<h1>Customer</h1>
 <div class="row btn-group">
 <a class="btn btn-info" href="customerlist.php">Customers</a>
 <a class="btn btn-primary" href="customeredit.php?id=<?= $customer['id'] ?>/edit">Edit Customer...</a>

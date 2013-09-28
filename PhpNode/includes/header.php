@@ -39,6 +39,17 @@
                 </ul>
             </li>
             <li class='dropdown'>
+                <a role='button' data-toggle='dropdown' href='#'>TSP <span class="caret"></span></a>
+                <ul class='dropdown-menu'>
+                    <li role='presentation'>
+                        <a role='menuitem' tabindex='-1' href='tsp.php'>Browser</a>
+                    </li>
+                    <li role='presentation'>
+                        <a role='menuitem' tabindex='-1' href='tspserver.php'>Server</a>
+                    </li>
+                </ul>
+            </li>
+            <li class='dropdown'>
                 <a role='button' data-toggle='dropdown' href='#'>Fractal <span class="caret"></span></a>
                 <ul class='dropdown-menu'>
                     <li role='presentation'>
@@ -63,3 +74,6 @@
       </div>
       
       <div class="container">
+        <div class="row">
+        <h1><?= $page->title ?></h1>
+        </div>
