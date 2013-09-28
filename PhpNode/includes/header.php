@@ -49,6 +49,14 @@
                     </li>
                 </ul>
             </li>
+            <li class='dropdown'>
+                <a role='button' data-toggle='dropdown' href='#'>Dnode<span class="caret"></span></a>
+                <ul class='dropdown-menu'>
+                    <li role='presentation'>
+                        <a role='menuitem' tabindex='-1' href='customerlist.php'>Customers</a>
+                    </li>
+                </ul>
+            </li>
             <li><a href="about.php">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
