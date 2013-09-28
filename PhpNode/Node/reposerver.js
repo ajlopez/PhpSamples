@@ -11,6 +11,12 @@ dnode({
         console.dir(list);
         callback(null, list);
     },
+    findById: function (id, callback) {
+        console.log('id', id);
+        var customer = customers.findById(id);
+        console.dir(customer);
+        callback(null, customer);
+    },
     add: function (data, callback) {
         console.log('data');
         console.dir(data);
