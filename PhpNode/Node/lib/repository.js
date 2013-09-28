@@ -23,6 +23,13 @@ function Repository(name) {
         
         return result;
     }
+    
+    this.findById = function (id) {
+        if (!items[id])
+            return null;
+            
+        return items[id];
+    }
 }
 
 function createRepository(name) {
