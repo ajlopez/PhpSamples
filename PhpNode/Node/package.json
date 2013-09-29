@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
 	"socket.io": "latest",
-    "dnode": "latest"
+    "dnode": "latest",
+    "irc": "latest"
   }
 , "scripts": {
     "test": "simpleunit test"
