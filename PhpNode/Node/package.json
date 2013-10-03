@@ -5,6 +5,7 @@
   "dependencies": {
 	"socket.io": "latest",
     "dnode": "latest",
+    "simplemessages": "0.0.3",
     "irc": "latest"
   }
 , "scripts": {
