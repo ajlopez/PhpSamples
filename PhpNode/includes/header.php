@@ -34,7 +34,7 @@
                         <a role='menuitem' tabindex='-1' href='canvas.php'>Canvas</a>
                     </li>
                     <li role='presentation'>
-                        <a role='menuitem' tabindex='-1' href='chat.php'>Chat</a>
+                        <a role='menuitem' tabindex='-1' href='tictactoe.php'>TicTacToe</a>
                     </li>
                 </ul>
             </li>
