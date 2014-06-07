@@ -15,3 +15,32 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', function()
+{
+    $users = User::all();
+
+    return View::make('users')->with('users', $users);
+});
+
+Route::get('users/new', function()
+{
+    return View::make('usernew');
+});
+
+Route::post('users/new', function()
+{
+    $name = Input::get('name');
+    $email = Input::get('email');
+    
+    DB::table('users')->insert(
+        array(
+            'name' => $name,
+            'email' => $email
+        )
+    );
+    
+    return Redirect::to('users');
+});
+
+
